@@ -93,7 +93,7 @@
         service.fetchPostBody = function (post) {
 
             post.htmlBody = post.htmlBody || "";
-            $http.get(getUrl(post.file))
+            $http.get(getUrl(post.file) + "?ms=" + new Date().getTime())
                 .then(function (response) {
                     post.htmlBody = response.data;
                 });
