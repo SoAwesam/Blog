@@ -69,7 +69,7 @@
         };
 
         service.loadPosts = function () {
-            $http.get(getUrl("posts/posts.json"))
+            $http.get(getUrl("posts/posts.json?ms=" + new Date().getTime()))
                 .then(function (response) {
                     posts = response.data;
                 });
