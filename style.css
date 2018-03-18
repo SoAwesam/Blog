@@ -10,5 +10,5 @@ ul.posts-list { max-height: 300px; overflow-y: auto;}
 ul.posts-list li a { overflow-x: hidden; white-space: pre; text-overflow: ellipsis; width: 99%; display: inline-block;}
 .btn-link:hover {text-decoration: none;}
 
-span.blackout {background-color: black; color: black;}
-span.blackout:hover {background-color: transparent;}
+span.blackout {background-color: pink; color: pink;}
+span.blackout:hover {background-color: transparent; color: black;}
